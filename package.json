@@ -1,0 +1,43 @@
+{
+  "name": "timed-promise",
+  "author": "Jeferson Tenorio",
+  "version": "1.0.2",
+  "type": "module",
+  "description": "Enqueue items and flush regularly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "promise",
+    "timed",
+    "concurrency",
+    "timeout",
+    "limit",
+    "limited",
+    "throttle",
+    "throat",
+    "rate",
+    "batch",
+    "ratelimit",
+    "task",
+    "queue",
+    "async",
+    "await",
+    "promises",
+    "bluebird",
+    "queue",
+    "enqueue",
+    "flush",
+    "interval"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "flushable-queue": "^1.0.2",
+    "p-limit": "^6.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
